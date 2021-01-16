@@ -23,8 +23,8 @@ body {
 .home {
     text-align: center;
 }
-.home h1 {
-    padding-top: 100px;
+.welcome #first {
+    padding-top: 175px;
 }
 nav {
     text-align: center;
