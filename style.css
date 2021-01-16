@@ -1,150 +1,131 @@
-/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 html {
     box-sizing: border-box;
+    height: 100vh;
+    color: white;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito';
     margin: 0;
+    background-image: url(abstract.jpg);
+    /* Image from: https://i.redd.it/52f61nfzmwl51.jpg */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-h1,h2 {
-    font-family: 'Caveat', cursive;
+.home {
+    text-align: center;
 }
-
-h1 {
-    font-size: 80px;
+.home h1 {
+    padding-top: 100px;
 }
-
-h2 {
-    font-size: 40px;
-    margin-top: 0;
-}
-
-h3 {
-    margin: 0;
-}
-
-a {
-    color: #EF233C;
-}
-
-.btn {
-    text-decoration: none;
-    background: #EF233C;
-    color: white;
-    padding: 10px;
-    display: inline-block;
-}
-a:hover {
-    text-decoration: none;
-}
-
-.content-wrap {
-    max-width: 950px;
-    margin: 0 auto;
-    padding: 60px 50px;
-    overflow: auto;
-}
-
-.uppercase {
-    text-transform:uppercase;
-}
-
-/* Header & Footer */
-header,footer {
-    background: #2b2d42;
-    color: #8D99AE;
-}
-/* Header */
-header {
-    padding-top: 50px;
-    position: relative;
-}
-header h1, header h2 {
-    color: #EDF2F4;
-    margin: 0;
-    bottom: 0;
-    right: 0;
-}
-
-.profile-image {
-    border-radius: 50%;
-}
-.download {
-    position: absolute;
-}
-/* Nav */
 nav {
     text-align: center;
-    background: white;
     position: fixed;
     top: 0;
     width: 100%;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 
 nav a {
     display: inline-block;
     padding: 15px 20px;
     text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-/* Footer */
-footer {
     text-align: center;
+    font-size: 24px;
+    color: white;
 }
 
-.contact a {
-    padding: 10px;
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 5%;
+
+}
+
+/* h1 {
+    font-size: 36px;
+} */
+#wave {
+    height: 200px;
+    width: 200px;
+}
+
+.home h1{
+    font-size: 2em;
+}
+
+.headline {
+   font-size: 1.2em;
+}
+
+.headline h2{
     display: inline-block;
+    padding: 15px 20px;
 }
 
-/* Work Expirience */
-.work{
-    background: #EDF2F4;
+.arrow {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-h3 ~ p{
-    margin:0;
+.arrow span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #130634;
+    border-right: 5px solid #130634;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
 }
 
-.job-description p:first-of-type{
-    margin-top: 0;
-    margin-bottom: 25px;
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
 }
 
-/* Education */
-.education {
-    background: #8D99AE;
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
 }
 
-ul + h3 {
-    margin-top: 30px;
-}
-/* Media Queries */
-@media (min-width: 900px) {
-    .col-narrow {
-        width:30%;
-        float: left;
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
     }
-    
-    .col-wide {
-        width:70%;
-        float: left;
-        padding-left: 20px;
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
     }
 }
 
-@media (max-width: 899px) {
-    header {
-        text-align: center;
-    }
-    .profile-image {
-        width: 200px;
-    }
+footer {
+    display: none;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
