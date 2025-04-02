@@ -1,16 +1,28 @@
-# Joseph Thompson's Resume Website
-<img src = "https://github.com/jlthompson96/Resume_Website/blob/master/assets/Joey.jpeg?raw=true" alt="Picture of Joseph" height="150px"/>
+# Cyber Portfolio
 
-## Implementation
-A website hosted in GitHub Pages to display my resume in webpage format.
+Welcome to **Cyber Portfolio**, a futuristic resume website built for software engineers to showcase their experience, projects, and skills in a sleek, cyberpunk-inspired design. Powered by React.js and Material-UI, this project combines modern web development with a neon-drenched aesthetic straight out of a sci-fi universe.
 
-## Steps Involved
-* Followed a CSS course on LinkedIn Learning to help expand my CSS knowledge
-* Used HTML5 and CSS3 for the strcuture and style of the website
-* Added sections to show my current and past accomplishments (Work and School)
+## Features
 
-## Future Plans
-* Add projects section
-* Enhance with a frontend framework i.e. React/Angular/Vue
+- **Resume Download**: One-click access to your resume in PDF format.
+- **Experience Matrix**: Display your professional journey with glowing, interactive cards.
+- **Project Grid**: Showcase your GitHub projects with a responsive, futuristic layout.
+- **Neural Network (Social Links)**: Connect with neon-lit social icons for LinkedIn, GitHub.
+- **Futuristic Styling**: Neon cyan and magenta accents, glow effects, and Orbitron typography for a cyberpunk vibe.
+- **Responsive Design**: Adapts seamlessly across devices, from neural implants to desktop screens.
 
-Link to website: https://jlthompson96.github.io/Resume_Website/
+## Tech Stack
+
+- **React.js**: Core framework for building the interface.
+- **Material-UI (MUI)**: Component library with custom theming for a futuristic look.
+- **MUI Icons**: Sleek icons for navigation and social links.
+- **CSS Animations**: Pulse and flicker effects for that cybernetic edge.
+- **Fontsource (Orbitron)**: Futuristic font integration.
+
+## License
+This project is licensed under the MIT License—free to use, modify, and distribute. See  for details.
+
+## Acknowledgments
+- Built with ❤️ and caffeine by Joey Thompson.
+- Powered by xAI's Grok for the initial code structure.
+- Inspired by cyberpunk aesthetics and sci-fi dreams
