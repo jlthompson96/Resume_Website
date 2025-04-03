@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import SocialLinks from './components/SocialLinks';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Education from './components/Education';
 
 const theme = createTheme({
   palette: {
@@ -98,6 +99,7 @@ function App() {
         <Header />
         <Skills />
         <Experience />
+        <Education />
         <Projects />
         <Contact />
         <SocialLinks />

@@ -1,9 +1,10 @@
+// src/components/Education.js
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import WorkIcon from '@mui/icons-material/Work';
-import { experiences } from '../data';
+import SchoolIcon from '@mui/icons-material/School';
+import { education } from '../data';
 
-function Experience() {
+function Education() {
     return (
         <Box sx={{ py: 6 }}>
             <Typography
@@ -11,11 +12,11 @@ function Experience() {
                 gutterBottom
                 sx={{ textShadow: '0 0 5px #ff00e4', mb: 4 }}
             >
-                Experience Matrix
+                Knowledge Core
             </Typography>
-            {experiences.map((exp, index) => (
+            {education.map((edu, index) => (
                 <Box
-                    key={exp.id}
+                    key={index}
                     sx={{
                         mb: 3,
                         p: 3,
@@ -28,24 +29,24 @@ function Experience() {
                         },
                         '& ul': {
                             paddingLeft: '20px',
-                            color: '#b0bec5', // Matches text.secondary
+                            color: '#b0bec5',
                         },
                         '& li': {
                             marginBottom: '8px',
                         },
                     }}
                 >
-                    <WorkIcon sx={{ color: '#00e5ff', mr: 1 }} />
+                    <SchoolIcon sx={{ color: '#00e5ff', mr: 1 }} />
                     <Typography variant="h6" sx={{ color: '#00e5ff' }}>
-                        {exp.title}
+                        {edu.degree}
                     </Typography>
-                    <Typography color="secondary">{exp.company}</Typography>
-                    <Typography color="textSecondary">{exp.period}</Typography>
-                    <Box sx={{ mt: 1 }}>{exp.description}</Box>
+                    <Typography color="secondary">{edu.institution}</Typography>
+                    <Typography color="textSecondary">{edu.period}</Typography>
+                    {edu.details && <Box sx={{ mt: 1 }}>{edu.details}</Box>}
                 </Box>
             ))}
         </Box>
     );
 }
 
-export default Experience;
+export default Education;

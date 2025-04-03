@@ -61,3 +61,17 @@ export const projects = [
     },
     // Add more projects
 ];
+
+export const education = [
+    {
+        degree: 'B.A. in Computer Science',
+        institution: 'University of North Carolina at Charlotte',
+        period: '2019 - 2021',
+        details: (
+            <ul>
+                <li>Capstone Project: An iOS app that allows users to view live parking deck availability on the UNC Charlotte Campus</li>
+                <li>Relevant Coursework: Data Structures, Algorithms, Web Development, Java Development, Database Management Systems</li>
+            </ul>
+        ),
+    }
+];
