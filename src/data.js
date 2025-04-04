@@ -20,7 +20,7 @@ export const experiences = [
     // Add more experiences as needed
     {
         title: 'IT Systems Administrator',
-        company: 'Greenway Chemical Systems &amp; Services',
+        company: 'Greenway Chemical Systems & Services',
         period: '2012 - 2022',
         description: (
             <ul>
