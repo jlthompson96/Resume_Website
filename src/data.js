@@ -5,15 +5,13 @@ export const experiences = [
         period: '2022 - Present',
         description: (
             <ul>
-                <li>Orchestrated the cloud migration from Pivotal Cloud Foundry (PCF) to a Kubernetes-based architecture on OpenShift Container Platform (OCP). Led the migration of multiple Java and React components and configured HELM charts to manage environment-specific configurations effectively.</li>
-                <li>Initiated the modernization of our application by working with a team of three members to develop and implement a Proof of Concept (POC) for deployment in lower environments on Pivotal Cloud Foundry (PCF).</li>
-                <li>Successfully transformed a Java 8 SpringBoot application with JSP into a modernized architecture, breaking it down into micro frontends powered by React.js and multiple backend microservices using Java 17 and Spring 6.</li>
-                <li>Collaborated closely with cross-functional teams to configure PCF environments and set up Harness properties while establishing an efficient Jenkins pipeline for deployment and code scanning via SonarQube and Threadfix.</li>
-                <li>Collaborated with principal and lead engineers to align code with design patterns, frameworks, and efficiency.</li>
-                <li>Collaborated in Enterprise Jira in the development lifecycle, including code design, implementation, testing, and integration, adhering to industry-standard methodologies.</li>
-                <li>Mentored and supported interns, contractors, and new team members, fostering a sense of confidence and integration within their roles, ultimately enhancing the company's overall reputation. Additionally, conducted interviews for potential interns and analysts.</li>
-                <li>Delivered crucial production support for the enterprise fraud and claims application by identifying and rectifying vulnerabilities and bugs, while proficiently troubleshooting issues through Splunk log analysis. Additionally, contributed support for late-night deployments in lower environment and production settings.</li>
-                <li>Engaged in several Business Continuity Planning (BCP) exercises to guarantee seamless data center failover and maintain operational resilience.</li>
+                <li>Spearheaded multiple high-impact cloud migrations, seamlessly transitioning from on-premises VMs to Pivotal Cloud Foundry (PCF) and later pivoting to a robust Kubernetes-based architecture on OpenShift Container Platform (OCP). Directed the seamless relocation of Java and React components while expertly configuring Helm charts to streamline environment-specific deployments and enhance operational efficiency.</li>
+                <li>Pioneered the modernization of a monolithic Java 8 Spring Boot application with legacy JSP architecture into a scalable microservices architecture leveraging Java 17, Spring 6, and React.js micro frontends; conducted extensive research on migration best practices, troubleshot complex compatibility and integration issues, and optimized configurations to enhance performance and maintainability for enterprise fraud and claims systems.</li>
+                <li>Architected CI/CD pipelines using Jenkins, SonarQube, and Threadfix while migrating microservices monitoring from ElasticAPM to Splunk Observability Cloud, automating deployments, enforcing code quality, and enhancing alerting for enterprise fraud and claims applications.</li>
+                <li>Provided ongoing support to multiple Scrum teams during application modernization, resolving impediments and facilitating knowledge sharing to ensure smooth development and integration of modernized components.</li>
+                <li>Supported Business Continuity Planning (BCP) exercises, ensuring successful data center failover and return, and validated Clean Rebuild Functional exercises to maintain operational resilience.</li>
+                <li>Leveraged GitHub Copilot to generate test cases, refactor code for runtime efficiency, identify and mitigate security vulnerabilities (e.g., SQL injection, XSS, CSRF, insecure authentication, data exposure), and resolve errors rapidly reducing development/testing time, minimizing debugging, accelerating cycles, and enhancing security for Java and React -based applications.</li>
+                <li>Mentored interns and junior developers through hands-on code reviews, pair programming sessions, and tailored skill-building workshops on Java, Spring Boot, and cloud technologies; conducted technical interviews to assess candidates, and fostered a collaborative environment that accelerated team onboarding, reduced knowledge gaps, and contributed to delivering high-performing, resilient enterprise applications.</li>
             </ul>
         ),
     },
@@ -24,17 +22,10 @@ export const experiences = [
         period: '2012 - 2022',
         description: (
             <ul>
-                <li>Supported the company’s growth from a small startup to a multi-state leader in industrial water treatment by designing and maintaining scalable IT systems that enabled expansion across the southeastern United States.</li>
-                <li>Designed and developed a responsive company website using HTML5, CSS3, JavaScript, and Bootstrap 4, significantly improving the online presence and customer access to company information and services.</li>
-                <li>Established and managed the office network infrastructure, ensuring high availability and security to support seamless business operations.</li>
-                <li>Assembled and configured custom desktop computers, tailoring solutions to meet specific operational needs and enhance staff productivity.</li>
-                <li>Identified and implemented innovative technological solutions, including databases, software, and hardware upgrades, to optimize workflows and increase operational efficiency.</li>
-                <li>Delivered expert troubleshooting and support for hardware, software, and network issues, both on-site and remotely, minimizing downtime and maintaining business continuity.</li>
-                <li>Managed and maintained the comprehensive IT infrastructure for Greenway Chemical, ensuring operational reliability and alignment with business objectives.</li>
-                <li>Led the design and front-end development of the corporate website, applying modern UI/UX principles to enhance accessibility, user satisfaction, and customer engagement.</li>
-                <li>Provided technical support and troubleshooting for clients’ automated chemical systems, resolving issues promptly to ensure optimal performance and client satisfaction.</li>
-                <li>Oversaw office network operations, implementing strategies to maximize uptime and establish secure, reliable connectivity across all devices.</li>
-                <li>Enhanced network security and performance by deploying Ubiquity UniFi solutions, configuring multiple VLANs for traffic segmentation, and establishing robust defenses against unauthorized access.</li>
+                <li>Drove company growth from startup to multi-state operation by redesigning and developing client-facing websites, migrating to WordPress for enhanced flexibility, and attracting new clients through improved online presence.</li>
+                <li>Engineered custom record-keeping programs and integrated security systems, collaborating with operations to streamline workflows and boost office productivity.</li>
+                <li>Managed network infrastructure and security protocols, ensuring secure, efficient operations while programming controllers and providing client support to maintain system reliability.</li>
+                <li>Led customer seminars on technology operations and conducted routine check-ins, enhancing client relations and resolving issues proactively.</li>
             </ul>
         ),
     },
@@ -69,8 +60,10 @@ export const education = [
         period: '2019 - 2021',
         details: (
             <ul>
-                <li>Capstone Project: An iOS app that allows users to view live parking deck availability on the UNC Charlotte Campus</li>
-                <li>Relevant Coursework: Data Structures, Algorithms, Web Development, Java Development, Database Management Systems</li>
+                <li>Capstone Project: Developed and deployed "9erPark," a Swift-based iOS application utilizing real-time APIs to display parking deck availability across UNC Charlotte's campus. Implemented SwiftUI for responsive user interface design, integrated RESTful web services for live data retrieval, and conducted user testing to optimize functionality and user experience.</li>
+                <li>Academic Excellence: Maintained strong academic performance while mastering core computer science fundamentals including Data Structures & Algorithms (optimal time/space complexity analysis), Object-Oriented Programming in Java, Full-Stack Web Development (HTML5, CSS3, JavaScript, responsive design), and Database Management Systems (SQL, relational database design, query optimization).</li>
+                <li>Technical Foundation: Built comprehensive programming expertise through hands-on projects in software engineering principles, version control with Git, software testing methodologies, and collaborative development practices that directly translate to enterprise software development environments.</li>
+                <li>Leadership & Collaboration: Participated in team-based projects requiring cross-functional collaboration, code reviews, and agile development methodologies, developing essential soft skills for modern software engineering roles.</li>
             </ul>
         ),
     }
