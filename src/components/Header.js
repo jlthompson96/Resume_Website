@@ -53,7 +53,7 @@ function Header() {
                 gutterBottom
                 sx={{ letterSpacing: '2px' }}
             >
-                Software Engineer | Tech Enthusiast | Fraud Technology
+                Senior Software Engineer | Tech Enthusiast | Fraud Technology
             </Typography>
             <Button
                 variant="contained"
