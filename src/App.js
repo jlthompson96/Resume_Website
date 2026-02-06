@@ -28,7 +28,7 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: "'Roboto Mono', monospace", // Default body text
+    fontFamily: "'Orbitron','Roboto Mono', monospace", // Default body text
     h2: {
       fontFamily: "'Orbitron', sans-serif", // Headings stay futuristic
       fontWeight: 700,
