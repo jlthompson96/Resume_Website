@@ -18,7 +18,7 @@ export const experiences = [
             },
             {
                 title: 'Software Engineer - AVP',
-                period: 'February 2023 - February 2026',
+                period: 'February 2023 - January 2026',
                 description: (
                     <ul>
                         <li>Spearheaded multiple high-impact cloud migrations, seamlessly transitioning from on-premises VMs to Pivotal Cloud Foundry (PCF) and later pivoting to a robust Kubernetes-based architecture on OpenShift Container Platform (OCP). Directed the seamless relocation of Java and React components while expertly configuring Helm charts to streamline environment-specific deployments and enhance operational efficiency.</li>
