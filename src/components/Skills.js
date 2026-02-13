@@ -1,10 +1,20 @@
 // src/components/Skills.js
 import { Box, Typography, Chip, Tooltip } from '@mui/material';
 import TerminalIcon from '@mui/icons-material/Terminal';
-import { FaJava, FaReact, FaDocker, FaJenkins, FaGithub, FaDatabase } from 'react-icons/fa'; // Specific icons
-import { SiSpring, SiKubernetes, SiSplunk } from 'react-icons/si'; // Simple Icons
-import { FaBrain } from 'react-icons/fa6';
-import { DiMongodb } from 'react-icons/di';
+import { FaJava } from 'react-icons/fa'; // Keep Java from Font Awesome
+import { 
+    SiReact, 
+    SiSpring, 
+    SiOracle, 
+    SiMongodb, 
+    SiKubernetes, 
+    SiRedhatopenshift, 
+    SiJenkins, 
+    SiGithubactions, 
+    SiSplunk,
+    SiRocket,
+    SiOpenai 
+} from 'react-icons/si';
 
 const skills = [
     {
@@ -16,7 +26,7 @@ const skills = [
     {
         name: 'React.js',
         url: 'https://reactjs.org/docs/getting-started.html',
-        icon: <FaReact />,
+        icon: <SiReact />,
         tooltip: 'Building dynamic UIs with React',
     },
     {
@@ -28,13 +38,13 @@ const skills = [
     {
         name: 'Oracle DB',
         url: 'https://docs.oracle.com/en/database/',
-        icon: <FaDatabase />, // No specific icon, using GitHub as a placeholder
+        icon: <SiOracle />,
         tooltip: 'Enterprise database management expertise',
     },
     {
         name: 'MongoDB',
         url: 'https://docs.mongodb.com/',
-        icon: <DiMongodb />, // No specific icon, using GitHub as a placeholder
+        icon: <SiMongodb />,
         tooltip: 'NoSQL database expertise',
     },
     {
@@ -46,20 +56,26 @@ const skills = [
     {
         name: 'OpenShift',
         url: 'https://docs.openshift.com/',
-        icon: <FaDocker />, // OpenShift doesn’t have a specific icon, using Docker as a related tech
+        icon: <SiRedhatopenshift />,
         tooltip: 'Cloud-native development with OpenShift',
     },
     {
         name: 'Jenkins',
         url: 'https://www.jenkins.io/doc/',
-        icon: <FaJenkins />,
+        icon: <SiJenkins />,
         tooltip: 'CI/CD pipeline automation',
     },
     {
         name: 'GitHub Actions',
         url: 'https://docs.github.com/en/actions',
-        icon: <FaGithub />, // GitHub Actions doesn’t have a specific icon, using Docker as a related tech
+        icon: <SiGithubactions />,
         tooltip: 'Automated workflows with GitHub Actions',
+    },
+    {
+        name: 'Harness',
+        url: 'https://docs.harness.io/',
+        icon: <SiRocket />,
+        tooltip: 'Continuous delivery with Harness',
     },
     {
         name: 'Splunk',
@@ -70,7 +86,7 @@ const skills = [
     {
         name: 'Generative AI',
         url: 'https://openai.com/research/generative-models',
-        icon: <FaBrain />,
+        icon: <SiOpenai />,
         tooltip: 'Exploring AI-driven development',
     }
 ];
@@ -118,7 +134,7 @@ function Skills() {
                                     },
                                     transition: 'all 0.3s',
                                     '& .MuiChip-icon': {
-                                        color: '#0a0e17', // Icon color matches label for contrast
+                                        color: '#0a0e17',
                                     },
                                 }}
                             />
