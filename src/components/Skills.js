@@ -1,13 +1,14 @@
 // src/components/Skills.js
-import React from 'react';
 import { Box, Typography, Chip, Tooltip } from '@mui/material';
 import TerminalIcon from '@mui/icons-material/Terminal';
-import { FaJava, FaReact, FaDocker, FaJenkins } from 'react-icons/fa'; // Specific icons
+import { FaJava, FaReact, FaDocker, FaJenkins, FaGithub, FaDatabase } from 'react-icons/fa'; // Specific icons
 import { SiSpring, SiKubernetes, SiSplunk } from 'react-icons/si'; // Simple Icons
+import { FaBrain } from 'react-icons/fa6';
+import { DiMongodb } from 'react-icons/di';
 
 const skills = [
     {
-        name: 'Java 17',
+        name: 'Java',
         url: 'https://docs.oracle.com/en/java/javase/17/docs/api/',
         icon: <FaJava />,
         tooltip: 'Advanced Java programming with modern features',
@@ -19,10 +20,22 @@ const skills = [
         tooltip: 'Building dynamic UIs with React',
     },
     {
-        name: 'Spring 6',
+        name: 'Spring Framework',
         url: 'https://docs.spring.io/spring-framework/docs/6.0.x/reference/html/',
         icon: <SiSpring />,
         tooltip: 'Enterprise-grade backend development',
+    },
+    {
+        name: 'Oracle DB',
+        url: 'https://docs.oracle.com/en/database/',
+        icon: <FaDatabase />, // No specific icon, using GitHub as a placeholder
+        tooltip: 'Enterprise database management expertise',
+    },
+    {
+        name: 'MongoDB',
+        url: 'https://docs.mongodb.com/',
+        icon: <DiMongodb />, // No specific icon, using GitHub as a placeholder
+        tooltip: 'NoSQL database expertise',
     },
     {
         name: 'Kubernetes',
@@ -43,11 +56,23 @@ const skills = [
         tooltip: 'CI/CD pipeline automation',
     },
     {
+        name: 'GitHub Actions',
+        url: 'https://docs.github.com/en/actions',
+        icon: <FaGithub />, // GitHub Actions doesn’t have a specific icon, using Docker as a related tech
+        tooltip: 'Automated workflows with GitHub Actions',
+    },
+    {
         name: 'Splunk',
         url: 'https://docs.splunk.com/Documentation',
         icon: <SiSplunk />,
         tooltip: 'Log analysis and monitoring',
     },
+    {
+        name: 'Generative AI',
+        url: 'https://openai.com/research/generative-models',
+        icon: <FaBrain />,
+        tooltip: 'Exploring AI-driven development',
+    }
 ];
 
 function Skills() {
