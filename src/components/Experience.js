@@ -32,9 +32,9 @@ function Experience() {
                             color: '#b0bec5',
                         },
                         '& li': {
-                            marginBottom: '8px',
-                            fontSize: { xs: '0.8rem', sm: '1rem' },
-                            lineHeight: { xs: 1.5, sm: 1.75 },
+                            marginBottom: '10px',
+                            fontSize: { xs: '0.9rem', sm: '1rem' },
+                            lineHeight: 1.8,
                         },
                     }}
                 >
@@ -85,11 +85,11 @@ function Experience() {
                                 </Box>
                                 <Typography 
                                     color="secondary" 
-                                    sx={{ pl: company.positions.length > 1 ? { xs: 0, sm: 4 } : 0, mb: 1 }}
+                                    sx={{ pl: company.positions.length > 1 ? { xs: 0, sm: 4 } : 0, mb: 2 }}
                                 >
                                     {position.period}
                                 </Typography>
-                                <Box sx={{ pl: company.positions.length > 1 ? { xs: 0, sm: 4 } : 0 }}>
+                                <Box sx={{ pl: company.positions.length > 1 ? { xs: 0, sm: 4 } : 0, mt: 0.5 }}>
                                     {position.description}
                                 </Box>
                             </Box>

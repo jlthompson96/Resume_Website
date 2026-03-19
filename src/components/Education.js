@@ -32,19 +32,19 @@ function Education() {
                             color: '#b0bec5',
                         },
                         '& li': {
-                            marginBottom: '8px',
-                            fontSize: { xs: '0.8rem', sm: '1rem' },
-                            lineHeight: { xs: 1.5, sm: 1.75 },
+                            marginBottom: '10px',
+                            fontSize: { xs: '0.9rem', sm: '1rem' },
+                            lineHeight: 1.8,
                         },
                     }}
                 >
                     <SchoolIcon sx={{ color: '#00e5ff', mr: 1 }} />
-                    <Typography variant="h6" sx={{ color: '#00e5ff' }}>
+                    <Typography variant="h6" sx={{ color: '#00e5ff', mt: 0.5 }}>
                         {edu.degree}
                     </Typography>
-                    <Typography color="secondary">{edu.institution}</Typography>
-                    <Typography color="textSecondary">{edu.period}</Typography>
-                    {edu.details && <Box sx={{ mt: 1 }}>{edu.details}</Box>}
+                    <Typography color="secondary" sx={{ mt: 0.5 }}>{edu.institution}</Typography>
+                    <Typography color="textSecondary" sx={{ mt: 0.5 }}>{edu.period}</Typography>
+                    {edu.details && <Box sx={{ mt: 2 }}>{edu.details}</Box>}
                 </Box>
             ))}
         </Box>

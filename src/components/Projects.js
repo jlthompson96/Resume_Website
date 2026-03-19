@@ -26,11 +26,11 @@ function Projects() {
                             },
                         }}
                     >
-                        <Typography variant="h6" sx={{ color: '#00e5ff' }}>
+                        <Typography variant="h6" sx={{ color: '#00e5ff', mb: 1 }}>
                             {project.name}
                         </Typography>
-                        <Typography>{project.description}</Typography>
-                        <Typography color="textSecondary" sx={{ mt: 1 }}>
+                        <Typography sx={{ lineHeight: 1.8 }}>{project.description}</Typography>
+                        <Typography color="textSecondary" sx={{ mt: 1.5, lineHeight: 1.7, fontSize: { xs: '0.85rem', sm: '0.9rem' } }}>
                             Tech: {project.technologies.join(', ')}
                         </Typography>
                         <CardActions sx={{ mt: 2 }}>
