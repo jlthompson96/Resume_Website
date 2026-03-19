@@ -36,7 +36,7 @@ function Header() {
     };
 
     return (
-        <Box sx={{ py: 6, textAlign: 'center', position: 'relative' }}>
+        <Box sx={{ py: { xs: 4, sm: 6 }, textAlign: 'center', position: 'relative' }}>
             <Typography
                 variant="h2"
                 gutterBottom
@@ -51,7 +51,7 @@ function Header() {
                 variant="h5"
                 color="textSecondary"
                 gutterBottom
-                sx={{ letterSpacing: '2px' }}
+                sx={{ letterSpacing: { xs: '1px', sm: '2px' } }}
             >
                 Senior Software Engineer | Tech Enthusiast | Fraud Technology
             </Typography>
@@ -60,7 +60,7 @@ function Header() {
                 startIcon={<GetAppIcon />}
                 endIcon={<ArrowDropDownIcon />}
                 onClick={handleClick}
-                sx={{ mt: 2, px: 4, py: 1.5, fontSize: '1.1rem' }}
+                sx={{ mt: 2, px: { xs: 2, sm: 4 }, py: 1.5, fontSize: { xs: '0.9rem', sm: '1.1rem' } }}
             >
                 Download Resume
             </Button>

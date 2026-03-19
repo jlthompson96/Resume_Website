@@ -60,7 +60,7 @@ function Experience() {
                                     }} 
                                 />
                             )}
-                            <Box sx={{ pl: 4 }}>
+                            <Box sx={{ pl: { xs: 1, sm: 4 } }}>
                                 <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
                                     {company.positions.length > 1 && (
                                         <TrendingUpIcon 
@@ -83,11 +83,11 @@ function Experience() {
                                 </Box>
                                 <Typography 
                                     color="secondary" 
-                                    sx={{ pl: company.positions.length > 1 ? 4 : 0, mb: 1 }}
+                                    sx={{ pl: company.positions.length > 1 ? { xs: 2, sm: 4 } : 0, mb: 1 }}
                                 >
                                     {position.period}
                                 </Typography>
-                                <Box sx={{ pl: company.positions.length > 1 ? 4 : 0 }}>
+                                <Box sx={{ pl: company.positions.length > 1 ? { xs: 2, sm: 4 } : 0 }}>
                                     {position.description}
                                 </Box>
                             </Box>

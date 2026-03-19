@@ -48,7 +48,7 @@ function Contact() {
             <Box
                 component="form"
                 onSubmit={handleSubmit}
-                sx={{ maxWidth: 500, mx: 'auto', p: 3, border: '1px solid #00e5ff' }}
+                sx={{ maxWidth: 500, mx: 'auto', p: { xs: 2, sm: 3 }, border: '1px solid #00e5ff' }}
             >
                 <TextField
                     label="Name"

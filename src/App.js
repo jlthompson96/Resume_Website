@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, ThemeProvider, CssBaseline, Box } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 import Header from './components/Header';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
@@ -9,7 +9,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Education from './components/Education';
 
-const theme = createTheme({
+let theme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
@@ -79,11 +79,13 @@ const theme = createTheme({
   },
 });
 
+theme = responsiveFontSizes(theme);
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="lg" sx={{ position: 'relative', overflow: 'hidden' }}>
+      <Container maxWidth="lg" sx={{ px: { xs: 2, sm: 3, md: 3 }, position: 'relative', overflow: 'hidden' }}>
         <Box
           sx={{
             position: 'absolute',

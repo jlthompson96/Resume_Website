@@ -13,7 +13,7 @@ function Projects() {
             >
                 Project Grid
             </Typography>
-            <Box sx={{ display: 'grid', gap: 3, gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
+            <Box sx={{ display: 'grid', gap: 3, gridTemplateColumns: 'repeat(auto-fit, minmax(min(300px, 100%), 1fr))' }}>
                 {projects.map((project) => (
                     <Box
                         key={project.id}
