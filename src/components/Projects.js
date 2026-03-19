@@ -5,7 +5,7 @@ import { projects } from '../data';
 
 function Projects() {
     return (
-        <Box sx={{ py: 6 }}>
+        <Box sx={{ py: { xs: 3, sm: 6 } }}>
             <Typography
                 variant="h4"
                 gutterBottom
@@ -18,7 +18,7 @@ function Projects() {
                     <Box
                         key={project.id}
                         sx={{
-                            p: 3,
+                            p: { xs: 2, sm: 3 },
                             background: 'rgba(26, 35, 50, 0.8)',
                             border: '1px solid #00e5ff',
                             '&:hover': {

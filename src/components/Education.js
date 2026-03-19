@@ -6,7 +6,7 @@ import { education } from '../data';
 
 function Education() {
     return (
-        <Box sx={{ py: 6 }}>
+        <Box sx={{ py: { xs: 3, sm: 6 } }}>
             <Typography
                 variant="h4"
                 gutterBottom
@@ -19,7 +19,7 @@ function Education() {
                     key={index}
                     sx={{
                         mb: 3,
-                        p: 3,
+                        p: { xs: 2, sm: 3 },
                         background: 'rgba(26, 35, 50, 0.8)',
                         borderLeft: '4px solid #00e5ff',
                         transition: 'all 0.3s',
@@ -28,11 +28,13 @@ function Education() {
                             borderLeftColor: '#ff00e4',
                         },
                         '& ul': {
-                            paddingLeft: '20px',
+                            paddingLeft: { xs: '16px', sm: '20px' },
                             color: '#b0bec5',
                         },
                         '& li': {
                             marginBottom: '8px',
+                            fontSize: { xs: '0.8rem', sm: '1rem' },
+                            lineHeight: { xs: 1.5, sm: 1.75 },
                         },
                     }}
                 >

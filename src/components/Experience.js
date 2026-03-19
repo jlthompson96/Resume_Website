@@ -6,7 +6,7 @@ import { experiences } from '../data';
 
 function Experience() {
     return (
-        <Box sx={{ py: 6 }}>
+        <Box sx={{ py: { xs: 3, sm: 6 } }}>
             <Typography
                 variant="h4"
                 gutterBottom
@@ -19,7 +19,7 @@ function Experience() {
                     key={companyIndex}
                     sx={{
                         mb: 4,
-                        p: 3,
+                        p: { xs: 2, sm: 3 },
                         background: 'rgba(26, 35, 50, 0.8)',
                         borderLeft: '4px solid #00e5ff',
                         transition: 'all 0.3s',
@@ -28,11 +28,13 @@ function Experience() {
                             borderLeftColor: '#ff00e4',
                         },
                         '& ul': {
-                            paddingLeft: '20px',
+                            paddingLeft: { xs: '16px', sm: '20px' },
                             color: '#b0bec5',
                         },
                         '& li': {
                             marginBottom: '8px',
+                            fontSize: { xs: '0.8rem', sm: '1rem' },
+                            lineHeight: { xs: 1.5, sm: 1.75 },
                         },
                     }}
                 >
@@ -60,7 +62,7 @@ function Experience() {
                                     }} 
                                 />
                             )}
-                            <Box sx={{ pl: { xs: 1, sm: 4 } }}>
+                            <Box sx={{ pl: { xs: 0, sm: 4 } }}>
                                 <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
                                     {company.positions.length > 1 && (
                                         <TrendingUpIcon 
@@ -83,11 +85,11 @@ function Experience() {
                                 </Box>
                                 <Typography 
                                     color="secondary" 
-                                    sx={{ pl: company.positions.length > 1 ? { xs: 2, sm: 4 } : 0, mb: 1 }}
+                                    sx={{ pl: company.positions.length > 1 ? { xs: 0, sm: 4 } : 0, mb: 1 }}
                                 >
                                     {position.period}
                                 </Typography>
-                                <Box sx={{ pl: company.positions.length > 1 ? { xs: 2, sm: 4 } : 0 }}>
+                                <Box sx={{ pl: company.positions.length > 1 ? { xs: 0, sm: 4 } : 0 }}>
                                     {position.description}
                                 </Box>
                             </Box>

@@ -8,6 +8,7 @@ import SocialLinks from './components/SocialLinks';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Education from './components/Education';
+import NavMenu from './components/NavMenu';
 
 let theme = createTheme({
   palette: {
@@ -85,6 +86,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <NavMenu />
       <Container maxWidth="lg" sx={{ px: { xs: 2, sm: 3, md: 3 }, position: 'relative', overflow: 'hidden' }}>
         <Box
           sx={{
@@ -99,12 +101,12 @@ function App() {
           }}
         />
         <Header />
-        <Skills />
-        <Experience />
-        <Education />
-        <Projects />
-        <Contact />
-        <SocialLinks />
+        <Box id="skills"><Skills /></Box>
+        <Box id="experience"><Experience /></Box>
+        <Box id="education"><Education /></Box>
+        <Box id="projects"><Projects /></Box>
+        <Box id="contact"><Contact /></Box>
+        <Box id="connect"><SocialLinks /></Box>
       </Container>
     </ThemeProvider>
   );

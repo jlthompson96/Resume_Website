@@ -36,7 +36,7 @@ function Header() {
     };
 
     return (
-        <Box sx={{ py: { xs: 4, sm: 6 }, textAlign: 'center', position: 'relative' }}>
+        <Box sx={{ py: { xs: 3, sm: 6 }, textAlign: 'center', position: 'relative' }}>
             <Typography
                 variant="h2"
                 gutterBottom
@@ -47,14 +47,31 @@ function Header() {
             >
                 Joey Thompson
             </Typography>
-            <Typography
-                variant="h5"
-                color="textSecondary"
-                gutterBottom
-                sx={{ letterSpacing: { xs: '1px', sm: '2px' } }}
-            >
-                Senior Software Engineer | Tech Enthusiast | Fraud Technology
-            </Typography>
+            {/* On mobile, break subtitle into stacked lines for readability */}
+            <Box sx={{ display: { xs: 'flex', sm: 'block' }, flexDirection: 'column', alignItems: 'center', gap: 0.5, mb: { xs: 0, sm: 1 } }}>
+                <Typography
+                    variant="h5"
+                    color="textSecondary"
+                    sx={{ letterSpacing: { xs: '1px', sm: '2px' } }}
+                >
+                    Senior Software Engineer
+                </Typography>
+                <Typography
+                    variant="h6"
+                    color="textSecondary"
+                    aria-label="Tech Enthusiast | Fraud Technology"
+                    sx={{ display: { xs: 'block', sm: 'none' }, letterSpacing: '1px' }}
+                >
+                    Tech Enthusiast | Fraud Technology
+                </Typography>
+                <Typography
+                    variant="h5"
+                    color="textSecondary"
+                    sx={{ display: { xs: 'none', sm: 'block' }, letterSpacing: '2px' }}
+                >
+                    Tech Enthusiast | Fraud Technology
+                </Typography>
+            </Box>
             <Button
                 variant="contained"
                 startIcon={<GetAppIcon />}

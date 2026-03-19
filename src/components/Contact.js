@@ -37,7 +37,7 @@ function Contact() {
     };
 
     return (
-        <Box sx={{ py: 6 }}>
+        <Box sx={{ py: { xs: 3, sm: 6 } }}>
             <Typography
                 variant="h4"
                 gutterBottom

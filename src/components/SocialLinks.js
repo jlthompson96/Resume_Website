@@ -5,7 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function SocialLinks() {
     return (
-        <Box sx={{ py: 6, textAlign: 'center' }}>
+        <Box sx={{ py: { xs: 3, sm: 6 }, textAlign: 'center' }}>
             <Typography
                 variant="h4"
                 gutterBottom

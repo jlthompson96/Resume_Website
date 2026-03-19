@@ -93,7 +93,7 @@ const skills = [
 
 function Skills() {
     return (
-        <Box sx={{ py: 6 }}>
+        <Box sx={{ py: { xs: 3, sm: 6 } }}>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
                 <TerminalIcon sx={{ color: '#00e5ff', fontSize: 40, mr: 1 }} />
                 <Typography
@@ -105,7 +105,7 @@ function Skills() {
             </Box>
             <Box
                 sx={{
-                    p: 3,
+                    p: { xs: 2, sm: 3 },
                     background: '#1a2332',
                     border: '2px solid #00e5ff',
                     boxShadow: '0 0 15px rgba(0, 229, 255, 0.5)',
