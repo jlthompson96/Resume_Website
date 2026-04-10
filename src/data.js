@@ -107,3 +107,11 @@ export const education = [
         ),
     }
 ];
+
+export const certifications = [
+    {
+        name: 'Microsoft Certified: Azure Fundamentals (AZ-900)',
+        issuer: 'Microsoft',
+        credentialUrl: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/',
+    },
+];

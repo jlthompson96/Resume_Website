@@ -2,10 +2,12 @@ import React from 'react';
 import { Container, ThemeProvider, CssBaseline, Box } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import Header from './components/Header';
+import Navigation from './components/Navigation';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import SocialLinks from './components/SocialLinks';
 import Skills from './components/Skills';
+import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Education from './components/Education';
 
@@ -83,6 +85,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <Navigation />
       <Container maxWidth="lg" sx={{ position: 'relative', overflow: 'hidden' }}>
         <Box
           sx={{
@@ -96,13 +99,30 @@ function App() {
             animation: 'pulse 4s infinite',
           }}
         />
-        <Header />
-        <Skills />
-        <Experience />
-        <Education />
-        <Projects />
-        <Contact />
-        <SocialLinks />
+        <Box id="home" sx={{ scrollMarginTop: '88px' }}>
+          <Header />
+        </Box>
+        <Box id="skills" sx={{ scrollMarginTop: '88px' }}>
+          <Skills />
+        </Box>
+        <Box id="certifications" sx={{ scrollMarginTop: '88px' }}>
+          <Certifications />
+        </Box>
+        <Box id="experience" sx={{ scrollMarginTop: '88px' }}>
+          <Experience />
+        </Box>
+        <Box id="education" sx={{ scrollMarginTop: '88px' }}>
+          <Education />
+        </Box>
+        <Box id="projects" sx={{ scrollMarginTop: '88px' }}>
+          <Projects />
+        </Box>
+        <Box id="contact" sx={{ scrollMarginTop: '88px' }}>
+          <Contact />
+        </Box>
+        <Box id="links" sx={{ scrollMarginTop: '88px' }}>
+          <SocialLinks />
+        </Box>
       </Container>
     </ThemeProvider>
   );
