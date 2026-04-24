@@ -9,10 +9,16 @@ export const experiences = [
                 period: 'February 2026 - Present',
                 description: (
                     <ul>
-                        <li>Provided ongoing support to multiple Scrum teams during application modernization, resolving impediments and facilitating knowledge sharing to ensure smooth development and integration of modernized components.</li>
-                        <li>Supported Business Continuity Planning (BCP) exercises, ensuring successful data center failover and return, and validated Clean Rebuild Functional exercises to maintain operational resilience.</li>
-                        <li>Leveraged GitHub Copilot to generate test cases, refactor code for runtime efficiency, identify and mitigate security vulnerabilities (e.g., SQL injection, XSS, CSRF, insecure authentication, data exposure), and resolve errors rapidly reducing development/testing time, minimizing debugging, accelerating cycles, and enhancing security for Java and React -based applications.</li>
                         <li>Mentored interns and junior developers through hands-on code reviews, pair programming sessions, and tailored skill-building workshops on Java, Spring Boot, and cloud technologies; conducted technical interviews to assess candidates, and fostered a collaborative environment that accelerated team onboarding, reduced knowledge gaps, and contributed to delivering high-performing, resilient enterprise applications.</li>
+                        <li>Led critical Business Continuity Planning (BCP) by successfully executing failover exercises, ensuring zero service interruption while seamlessly routing live traffic across multiple data centers.</li>
+                        <li>Spearheaded complex, enterprise-wide migration initiatives (DCMS/DC Exit), including architecting and executing database migrations from on-prem heritage systems to modern cloud environments (NGDC).</li>
+                        <li>Drove advanced Generative AI adoption by building and maintaining a centralized knowledge hub, standardizing usage guidelines, and accelerating organizational AI literacy across multiple development teams.</li>
+                        <li>Provided technical leadership for critical production deployments and modernization efforts, proactively owning deployment lifecycles—including acting as lead in the absence of Principal Engineers—to guarantee on-schedule, continuous service delivery.</li>
+                        <li>Maintained exceptional operational discipline across all supported migration and deployment activities, resulting in zero Sev-1 or Sev-2 incidents attributable to work, demonstrating expert risk management and stability assurance.</li>
+                        <li>Elevated development efficiency by integrating advanced AI tooling (GitHub Copilot Agent/Edit modes) into workflows, accelerating code generation and review processes while ensuring 100% test coverage.</li>
+                        <li>Served as a key subject matter expert (SME) across multiple Scrum teams on modernization initiatives, resolving complex technical impediments and establishing alignment through the initial and continuous delivery phases.</li>
+                        <li>Developed custom AI agents for core business processes—such as streamlining fraud remediation—and implementing automated pre-commit checks to enforce organizational security standards at the code level.</li>
+                        <li>Cultivated deep cross-functional relationships by participating in mentoring programs and leading internal awareness forums, translating complex technical concepts into actionable knowledge for broad engineering adoption.</li>
                     </ul>
                 ),
             },
