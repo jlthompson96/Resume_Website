@@ -1,0 +1,123 @@
+export const experiences = [
+    {
+        company: 'Wells Fargo',
+        location: 'Charlotte, NC',
+        totalPeriod: 'January 2022 - Present',
+        positions: [
+            {
+                title: 'Senior Software Engineer - SAVP',
+                period: 'February 2026 - Present',
+                description: (
+                    <ul>
+                        <li>Mentored interns and junior developers through hands-on code reviews, pair programming sessions, and tailored skill-building workshops on Java, Spring Boot, and cloud technologies; conducted technical interviews to assess candidates, and fostered a collaborative environment that accelerated team onboarding, reduced knowledge gaps, and contributed to delivering high-performing, resilient enterprise applications.</li>
+                        <li>Led critical Business Continuity Planning (BCP) by successfully executing failover exercises, ensuring zero service interruption while seamlessly routing live traffic across multiple data centers.</li>
+                        <li>Spearheaded complex, enterprise-wide migration initiatives (DCMS/DC Exit), including architecting and executing database migrations from on-prem heritage systems to modern cloud environments (NGDC).</li>
+                        <li>Drove advanced Generative AI adoption by building and maintaining a centralized knowledge hub, standardizing usage guidelines, and accelerating organizational AI literacy across multiple development teams.</li>
+                        <li>Provided technical leadership for critical production deployments and modernization efforts, proactively owning deployment lifecycles—including acting as lead in the absence of Principal Engineers—to guarantee on-schedule, continuous service delivery.</li>
+                        <li>Maintained exceptional operational discipline across all supported migration and deployment activities, resulting in zero Sev-1 or Sev-2 incidents attributable to work, demonstrating expert risk management and stability assurance.</li>
+                        <li>Elevated development efficiency by integrating advanced AI tooling (GitHub Copilot Agent/Edit modes) into workflows, accelerating code generation and review processes while ensuring 100% test coverage.</li>
+                        <li>Served as a key subject matter expert (SME) across multiple Scrum teams on modernization initiatives, resolving complex technical impediments and establishing alignment through the initial and continuous delivery phases.</li>
+                        <li>Developed custom AI agents for core business processes—such as streamlining fraud remediation—and implementing automated pre-commit checks to enforce organizational security standards at the code level.</li>
+                        <li>Cultivated deep cross-functional relationships by participating in mentoring programs and leading internal awareness forums, translating complex technical concepts into actionable knowledge for broad engineering adoption.</li>
+                    </ul>
+                ),
+            },
+            {
+                title: 'Software Engineer - AVP',
+                period: 'February 2023 - January 2026',
+                description: (
+                    <ul>
+                        <li>Spearheaded multiple high-impact cloud migrations, seamlessly transitioning from on-premises VMs to Pivotal Cloud Foundry (PCF) and later pivoting to a robust Kubernetes-based architecture on OpenShift Container Platform (OCP). Directed the seamless relocation of Java and React components while expertly configuring Helm charts to streamline environment-specific deployments and enhance operational efficiency.</li>
+                        <li>Pioneered the modernization of a monolithic Java 8 Spring Boot application with legacy JSP architecture into a scalable microservices architecture leveraging Java 17, Spring 6, and React.js micro frontends; conducted extensive research on migration best practices, troubleshot complex compatibility and integration issues, and optimized configurations to enhance performance and maintainability for enterprise fraud and claims systems.</li>
+                        <li>Architected CI/CD pipelines using Jenkins, SonarQube, and Threadfix while migrating microservices monitoring from ElasticAPM to Splunk Observability Cloud, automating deployments, enforcing code quality, and enhancing alerting for enterprise fraud and claims applications.</li>
+                        <li>Provided ongoing support to multiple Scrum teams during application modernization, resolving impediments and facilitating knowledge sharing to ensure smooth development and integration of modernized components.</li>
+                        <li>Supported Business Continuity Planning (BCP) exercises, ensuring successful data center failover and return, and validated Clean Rebuild Functional exercises to maintain operational resilience.</li>
+                        <li>Leveraged GitHub Copilot to generate test cases, refactor code for runtime efficiency, identify and mitigate security vulnerabilities (e.g., SQL injection, XSS, CSRF, insecure authentication, data exposure), and resolve errors rapidly reducing development/testing time, minimizing debugging, accelerating cycles, and enhancing security for Java and React -based applications.</li>
+                        <li>Mentored interns and junior developers through hands-on code reviews, pair programming sessions, and tailored skill-building workshops on Java, Spring Boot, and cloud technologies; conducted technical interviews to assess candidates, and fostered a collaborative environment that accelerated team onboarding, reduced knowledge gaps, and contributed to delivering high-performing, resilient enterprise applications.</li>
+                    </ul>
+                ),
+            },
+            {
+                title: 'Technology Analyst - Analyst',
+                period: 'January 2022 - January 2023',
+                description: (
+                    <ul>
+                        <li>Applied Agile and Scrum methodologies, participating in daily stand-ups, sprint planning, and retrospectives to support on-time software delivery.</li>
+                        <li>Managed and completed Jira user stories, consistently meeting sprint goals and delivery commitments.</li>
+                        <li>Enhanced Spring Boot application codebases, improving functionality and performance to streamline fraud claim processing workflows.</li>
+                        <li>Developed and executed test scripts to validate application functionality, performance, and conformance to technical requirements.</li>
+                        <li>Authored and maintained technical documentation in code repositories to support maintainability, usability, and team knowledge transfer.</li>
+                        <li>Supported pilot and production deployments, ensuring stable releases and smooth operational transitions.</li>
+                        <li>Collaborated with cross-functional team members to expand software development skills while delivering business requirements.</li>
+                        <li>Utilized Splunk for application monitoring and troubleshooting, resolving user-reported issues and improving system reliability.</li>
+                    </ul>
+                ),
+            },
+        ],
+    },
+    {
+        company: 'Greenway Chemical Systems & Services',
+        location: 'Charlotte, NC',
+        totalPeriod: '2012 - 2022',
+        positions: [
+            {
+                title: 'IT Systems Administrator',
+                period: '2012 - 2022',
+                description: (
+                    <ul>
+                        <li>Drove company growth from startup to multi-state operation by redesigning and developing client-facing websites, migrating to WordPress for enhanced flexibility, and attracting new clients through improved online presence.</li>
+                        <li>Engineered custom record-keeping programs and integrated security systems, collaborating with operations to streamline workflows and boost office productivity.</li>
+                        <li>Managed network infrastructure and security protocols, ensuring secure, efficient operations while programming controllers and providing client support to maintain system reliability.</li>
+                        <li>Led customer seminars on technology operations and conducted routine check-ins, enhancing client relations and resolving issues proactively.</li>
+                    </ul>
+                ),
+            },
+        ],
+    },
+];
+
+export const projects = [
+    {
+        name: 'Space Exploration',
+        description: "A web app to show various data provided by NASA's various publicly available APIs.",
+        technologies: ['React', 'Node.js', 'Axios', 'NASA API', 'Material UI'],
+        github: 'https://github.com/jlthompson96/Space_Exploration',
+    },
+    {
+        name: '9erPark',
+        description: "An iOS app that allows users to view live parking deck availability on the UNC Charlotte Campus.",
+        technologies: ['Swift', 'SwiftUI'],
+        github: 'https://github.com/jlthompson96/9erPark',
+    },
+    {
+        name: 'BullRun',
+        description: "A full stack application to manage financial portfolios and provide financial literacy to users.",
+        technologies: ['React', 'Node.js', 'Axios', 'Material UI', 'MongoDB', 'Polygon.io API', 'Spring Boot'],
+        github: 'https://github.com/jlthompson96/BullRun_Frontend',
+    },
+    // Add more projects
+];
+
+export const education = [
+    {
+        degree: 'B.A. in Computer Science',
+        institution: 'University of North Carolina at Charlotte',
+        period: '2019 - 2021',
+        details: (
+            <ul>
+                <li>Capstone Project: Developed and deployed "9erPark," a Swift-based iOS application utilizing real-time APIs to display parking deck availability across UNC Charlotte's campus. Implemented SwiftUI for responsive user interface design, integrated RESTful web services for live data retrieval, and conducted user testing to optimize functionality and user experience.</li>
+                <li>Academic Excellence: Maintained strong academic performance while mastering core computer science fundamentals including Data Structures & Algorithms (optimal time/space complexity analysis), Object-Oriented Programming in Java, Full-Stack Web Development (HTML5, CSS3, JavaScript, responsive design), and Database Management Systems (SQL, relational database design, query optimization).</li>
+                <li>Technical Foundation: Built comprehensive programming expertise through hands-on projects in software engineering principles, version control with Git, software testing methodologies, and collaborative development practices that directly translate to enterprise software development environments.</li>
+                <li>Leadership & Collaboration: Participated in team-based projects requiring cross-functional collaboration, code reviews, and agile development methodologies, developing essential soft skills for modern software engineering roles.</li>
+            </ul>
+        ),
+    }
+];
+
+export const certifications = [
+    {
+        name: 'Microsoft Certified: Azure Fundamentals (AZ-900)',
+        issuer: 'Microsoft',
+        credentialUrl: 'https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/',
+    },
+];
