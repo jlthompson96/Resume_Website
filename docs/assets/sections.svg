@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 314" width="1000" height="314" role="img" aria-label="Site sections: Header, Skills Interface, Certification Vault, Experience Matrix, Knowledge Core, Project Grid, Transmission Hub and Neural Network">
+  <style>
+    .bar { animation: glow 2.6s ease-in-out infinite; }
+    @keyframes glow { 0%,100% { opacity: 1 } 50% { opacity: .45 } }
+    .card { animation: lift 6s ease-in-out infinite; }
+    @keyframes lift { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-3px) } }
+    @media (prefers-reduced-motion: reduce) { .bar, .card { animation: none } }
+  </style>
+  <defs>
+    <radialGradient id="n0" cx="0.9" cy="0.1" r="0.8"><stop offset="0" stop-color="#00e5ff" stop-opacity="0.22"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n1" cx="0.9" cy="0.1" r="0.8"><stop offset="0" stop-color="#ff00e4" stop-opacity="0.22"/><stop offset="1" stop-color="#ff00e4" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n2" cx="0.9" cy="0.1" r="0.8"><stop offset="0" stop-color="#00e5ff" stop-opacity="0.22"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n3" cx="0.9" cy="0.1" r="0.8"><stop offset="0" stop-color="#ff00e4" stop-opacity="0.22"/><stop offset="1" stop-color="#ff00e4" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n4" cx="0.9" cy="0.1" r="0.8"><stop offset="0" stop-color="#00e5ff" stop-opacity="0.22"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n5" cx="0.9" cy="0.1" r="0.8"><stop offset="0" stop-color="#ff00e4" stop-opacity="0.22"/><stop offset="1" stop-color="#ff00e4" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n6" cx="0.9" cy="0.1" r="0.8"><stop offset="0" stop-color="#00e5ff" stop-opacity="0.22"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n7" cx="0.9" cy="0.1" r="0.8"><stop offset="0" stop-color="#ff00e4" stop-opacity="0.22"/><stop offset="1" stop-color="#ff00e4" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g class="card" style="animation-delay:-0.00s">
+    <rect x="10.0" y="10" width="234.5" height="140" rx="2" fill="#1a2332" stroke="#00e5ff" stroke-opacity="0.8"/>
+    <rect x="10.0" y="10" width="234.5" height="140" rx="2" fill="url(#n0)"/>
+    <g transform="translate(28.0,26)"><path d="M18 2v22M9 15l9 9 9-9M3 33h30" fill="none" stroke="#00e5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="28.0" y="88" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#ffffff">Header</text>
+    <text x="28.0" y="110" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">Neon name, title, and a</text>
+    <text x="28.0" y="128" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">PDF / Word resume download</text>
+    <rect class="bar" x="26.0" y="140" width="202.5" height="3" rx="1.5" fill="#00e5ff" style="animation-delay:-0.0s"/>
+  </g>
+  <g class="card" style="animation-delay:-0.45s">
+    <rect x="258.5" y="10" width="234.5" height="140" rx="2" fill="#1a2332" stroke="#ff00e4" stroke-opacity="0.8"/>
+    <rect x="258.5" y="10" width="234.5" height="140" rx="2" fill="url(#n1)"/>
+    <g transform="translate(276.5,26)"><rect x="0" y="3" width="36" height="28" rx="3" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12l6 5-6 5M18 23h10" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="276.5" y="88" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#ffffff">Skills Interface</text>
+    <text x="276.5" y="110" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">Linked tech chips with</text>
+    <text x="276.5" y="128" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">tooltips (Java, React, K8s…)</text>
+    <rect class="bar" x="274.5" y="140" width="202.5" height="3" rx="1.5" fill="#ff00e4" style="animation-delay:-0.4s"/>
+  </g>
+  <g class="card" style="animation-delay:-0.90s">
+    <rect x="507.0" y="10" width="234.5" height="140" rx="2" fill="#1a2332" stroke="#00e5ff" stroke-opacity="0.8"/>
+    <rect x="507.0" y="10" width="234.5" height="140" rx="2" fill="url(#n2)"/>
+    <g transform="translate(525.0,26)"><rect x="2" y="2" width="32" height="32" rx="4" fill="none" stroke="#00e5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="18" r="8" fill="none" stroke="#00e5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 10v3M18 23v3M10 18h3M23 18h3" fill="none" stroke="#00e5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="525.0" y="88" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#ffffff">Certification Vault</text>
+    <text x="525.0" y="110" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">Certifications with</text>
+    <text x="525.0" y="128" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">links to credentials</text>
+    <rect class="bar" x="523.0" y="140" width="202.5" height="3" rx="1.5" fill="#00e5ff" style="animation-delay:-0.8s"/>
+  </g>
+  <g class="card" style="animation-delay:-1.35s">
+    <rect x="755.5" y="10" width="234.5" height="140" rx="2" fill="#1a2332" stroke="#ff00e4" stroke-opacity="0.8"/>
+    <rect x="755.5" y="10" width="234.5" height="140" rx="2" fill="url(#n3)"/>
+    <g transform="translate(773.5,26)"><rect x="0" y="9" width="36" height="24" rx="4" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 9V3h12v6M0 19h36" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="773.5" y="88" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#ffffff">Experience Matrix</text>
+    <text x="773.5" y="110" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">Every role at each</text>
+    <text x="773.5" y="128" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">company, with highlights</text>
+    <rect class="bar" x="771.5" y="140" width="202.5" height="3" rx="1.5" fill="#ff00e4" style="animation-delay:-1.2s"/>
+  </g>
+  <g class="card" style="animation-delay:-1.80s">
+    <rect x="10.0" y="164" width="234.5" height="140" rx="2" fill="#1a2332" stroke="#00e5ff" stroke-opacity="0.8"/>
+    <rect x="10.0" y="164" width="234.5" height="140" rx="2" fill="url(#n4)"/>
+    <g transform="translate(28.0,180)"><path d="M0 12 L19 3 L38 12 L19 21 Z" fill="none" stroke="#00e5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 16v9c6 5 16 5 22 0v-9" fill="none" stroke="#00e5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="28.0" y="242" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#ffffff">Knowledge Core</text>
+    <text x="28.0" y="264" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">Degree, school and</text>
+    <text x="28.0" y="282" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">capstone details</text>
+    <rect class="bar" x="26.0" y="294" width="202.5" height="3" rx="1.5" fill="#00e5ff" style="animation-delay:-1.6s"/>
+  </g>
+  <g class="card" style="animation-delay:-2.25s">
+    <rect x="258.5" y="164" width="234.5" height="140" rx="2" fill="#1a2332" stroke="#ff00e4" stroke-opacity="0.8"/>
+    <rect x="258.5" y="164" width="234.5" height="140" rx="2" fill="url(#n5)"/>
+    <g transform="translate(276.5,180)"><rect x="0" y="0" width="15" height="15" rx="2" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="21" y="0" width="15" height="15" rx="2" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="0" y="21" width="15" height="15" rx="2" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="21" y="21" width="15" height="15" rx="2" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="276.5" y="242" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#ffffff">Project Grid</text>
+    <text x="276.5" y="264" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">Glowing project cards</text>
+    <text x="276.5" y="282" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">linked to GitHub</text>
+    <rect class="bar" x="274.5" y="294" width="202.5" height="3" rx="1.5" fill="#ff00e4" style="animation-delay:-2.0s"/>
+  </g>
+  <g class="card" style="animation-delay:-2.70s">
+    <rect x="507.0" y="164" width="234.5" height="140" rx="2" fill="#1a2332" stroke="#00e5ff" stroke-opacity="0.8"/>
+    <rect x="507.0" y="164" width="234.5" height="140" rx="2" fill="url(#n6)"/>
+    <g transform="translate(525.0,180)"><path d="M2 18L34 3 26 34 18 22z" fill="none" stroke="#00e5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 22L34 3" fill="none" stroke="#00e5ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="525.0" y="242" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#ffffff">Transmission Hub</text>
+    <text x="525.0" y="264" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">Contact form that sends</text>
+    <text x="525.0" y="282" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">straight to email (EmailJS)</text>
+    <rect class="bar" x="523.0" y="294" width="202.5" height="3" rx="1.5" fill="#00e5ff" style="animation-delay:-2.4s"/>
+  </g>
+  <g class="card" style="animation-delay:-3.15s">
+    <rect x="755.5" y="164" width="234.5" height="140" rx="2" fill="#1a2332" stroke="#ff00e4" stroke-opacity="0.8"/>
+    <rect x="755.5" y="164" width="234.5" height="140" rx="2" fill="url(#n7)"/>
+    <g transform="translate(773.5,180)"><circle cx="6" cy="18" r="4" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="30" cy="6" r="4" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="30" cy="30" r="4" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 16l16-8M10 20l16 8" fill="none" stroke="#ff00e4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="773.5" y="242" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5" fill="#ffffff">Neural Network</text>
+    <text x="773.5" y="264" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">LinkedIn and GitHub</text>
+    <text x="773.5" y="282" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5">links</text>
+    <rect class="bar" x="771.5" y="294" width="202.5" height="3" rx="1.5" fill="#ff00e4" style="animation-delay:-2.8s"/>
+  </g>
+</svg>

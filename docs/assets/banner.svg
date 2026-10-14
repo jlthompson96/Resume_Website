@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Joey Thompson — Senior Software Engineer, Tech Enthusiast, Fraud Technology. A cyberpunk resume site">
+  <style>
+    .flicker { animation: flicker 3s infinite; }
+    @keyframes flicker { 0%,19%,21%,23%,55%,57%,100% { opacity: 1 } 20%,22%,56% { opacity: .45 } }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+    .grid { animation: grid 2.4s linear infinite; }
+    @keyframes grid { from { transform: translateY(0) } to { transform: translateY(24px) } }
+    .scan { animation: scan 5s linear infinite; }
+    @keyframes scan { from { transform: translateY(-320px) } to { transform: translateY(320px) } }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0 } }
+    .type { animation: type 7s steps(36) infinite; }
+    @keyframes type { 0% { width: 0 } 45%,85% { width: 340px } 100% { width: 0 } }
+    .cm { animation: cm 7s steps(36) infinite; }
+    @keyframes cm { 0% { transform: translateX(0) } 45%,85% { transform: translateX(334px) } 100% { transform: translateX(0) } }
+    @media (prefers-reduced-motion: reduce) { .flicker, .pulse, .grid, .scan, .caret { animation: none } .type { animation: none; width: 340px } .cm { animation: none; transform: translateX(334px) } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e17"/><stop offset="1" stop-color="#111a2a"/></linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.42" r="0.55"><stop offset="0" stop-color="#00e5ff" stop-opacity="0.16"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#ff00e4"/></linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e17"/><stop offset="1" stop-color="#0a0e17" stop-opacity="0"/></linearGradient>
+    <linearGradient id="scang" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00e5ff" stop-opacity="0"/><stop offset="0.5" stop-color="#00e5ff" stop-opacity="0.06"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient>
+    <filter id="neon" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect width="1200" height="320" rx="14"/></clipPath>
+    <clipPath id="floor"><rect x="0" y="232" width="1200" height="88"/></clipPath>
+    <clipPath id="typeclip"><rect class="type" x="428" y="190" width="340" height="34"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect class="pulse" width="1200" height="320" fill="url(#halo)"/>
+    <circle cx="198" cy="152" r="1.2" fill="#ff00e4" opacity="0.39"/>
+    <circle cx="259" cy="174" r="1.2" fill="#00e5ff" opacity="0.40"/>
+    <circle cx="283" cy="1" r="0.9" fill="#ffffff" opacity="0.37"/>
+    <circle cx="174" cy="165" r="0.6" fill="#ffffff" opacity="0.22"/>
+    <circle cx="1197" cy="163" r="0.9" fill="#ffffff" opacity="0.38"/>
+    <circle cx="1148" cy="119" r="1.2" fill="#00e5ff" opacity="0.46"/>
+    <circle cx="1125" cy="5" r="1.2" fill="#00e5ff" opacity="0.25"/>
+    <circle cx="1114" cy="100" r="1.2" fill="#ffffff" opacity="0.34"/>
+    <circle cx="582" cy="41" r="0.6" fill="#ff00e4" opacity="0.55"/>
+    <circle cx="282" cy="172" r="0.6" fill="#ffffff" opacity="0.59"/>
+    <circle cx="1073" cy="166" r="1.2" fill="#ffffff" opacity="0.23"/>
+    <circle cx="672" cy="123" r="0.9" fill="#00e5ff" opacity="0.34"/>
+    <circle cx="175" cy="118" r="0.9" fill="#ff00e4" opacity="0.58"/>
+    <circle cx="602" cy="70" r="0.9" fill="#ff00e4" opacity="0.31"/>
+    <circle cx="1001" cy="35" r="1.2" fill="#ff00e4" opacity="0.20"/>
+    <circle cx="84" cy="132" r="1.2" fill="#00e5ff" opacity="0.43"/>
+    <circle cx="382" cy="216" r="0.6" fill="#00e5ff" opacity="0.47"/>
+    <circle cx="752" cy="183" r="0.9" fill="#ff00e4" opacity="0.50"/>
+    <circle cx="1116" cy="54" r="0.6" fill="#00e5ff" opacity="0.57"/>
+    <circle cx="209" cy="94" r="0.6" fill="#ffffff" opacity="0.21"/>
+    <circle cx="624" cy="145" r="0.6" fill="#ff00e4" opacity="0.57"/>
+    <circle cx="196" cy="163" r="0.6" fill="#ff00e4" opacity="0.40"/>
+    <circle cx="451" cy="54" r="0.6" fill="#00e5ff" opacity="0.42"/>
+    <circle cx="527" cy="90" r="1.2" fill="#ff00e4" opacity="0.22"/>
+    <circle cx="346" cy="188" r="1.2" fill="#ff00e4" opacity="0.21"/>
+    <circle cx="298" cy="87" r="0.9" fill="#ffffff" opacity="0.56"/>
+    <circle cx="1180" cy="164" r="0.9" fill="#00e5ff" opacity="0.30"/>
+    <circle cx="1151" cy="116" r="1.2" fill="#ff00e4" opacity="0.21"/>
+    <circle cx="255" cy="184" r="0.6" fill="#ff00e4" opacity="0.44"/>
+    <circle cx="511" cy="128" r="0.9" fill="#ff00e4" opacity="0.26"/>
+    <circle cx="706" cy="31" r="1.2" fill="#00e5ff" opacity="0.35"/>
+    <circle cx="151" cy="157" r="0.9" fill="#ffffff" opacity="0.33"/>
+    <circle cx="300" cy="210" r="0.9" fill="#ff00e4" opacity="0.47"/>
+    <circle cx="902" cy="179" r="0.6" fill="#00e5ff" opacity="0.26"/>
+    <circle cx="476" cy="41" r="1.2" fill="#ff00e4" opacity="0.51"/>
+    <circle cx="86" cy="26" r="0.9" fill="#00e5ff" opacity="0.32"/>
+    <circle cx="1131" cy="87" r="0.6" fill="#ffffff" opacity="0.27"/>
+    <circle cx="221" cy="83" r="1.2" fill="#ffffff" opacity="0.42"/>
+    <circle cx="55" cy="156" r="1.2" fill="#00e5ff" opacity="0.52"/>
+    <circle cx="9" cy="102" r="0.6" fill="#ff00e4" opacity="0.51"/>
+    <circle cx="210" cy="157" r="0.9" fill="#ffffff" opacity="0.44"/>
+    <circle cx="895" cy="54" r="0.6" fill="#ff00e4" opacity="0.49"/>
+    <circle cx="1189" cy="180" r="1.2" fill="#ff00e4" opacity="0.58"/>
+    <circle cx="118" cy="132" r="1.2" fill="#ffffff" opacity="0.49"/>
+    <circle cx="1161" cy="68" r="1.2" fill="#ffffff" opacity="0.41"/>
+    <circle cx="673" cy="14" r="0.9" fill="#00e5ff" opacity="0.34"/>
+    <circle cx="382" cy="219" r="0.6" fill="#00e5ff" opacity="0.46"/>
+    <circle cx="752" cy="178" r="0.9" fill="#ffffff" opacity="0.45"/>
+    <circle cx="24" cy="142" r="0.9" fill="#ff00e4" opacity="0.41"/>
+    <circle cx="467" cy="88" r="0.6" fill="#00e5ff" opacity="0.22"/>
+    <circle cx="521" cy="54" r="1.2" fill="#ffffff" opacity="0.53"/>
+    <circle cx="869" cy="100" r="0.6" fill="#ff00e4" opacity="0.35"/>
+    <circle cx="584" cy="139" r="1.2" fill="#00e5ff" opacity="0.21"/>
+    <circle cx="207" cy="82" r="1.2" fill="#00e5ff" opacity="0.51"/>
+    <circle cx="752" cy="167" r="1.2" fill="#ffffff" opacity="0.54"/>
+    <circle cx="839" cy="150" r="0.6" fill="#ff00e4" opacity="0.57"/>
+    <circle cx="463" cy="135" r="1.2" fill="#ffffff" opacity="0.60"/>
+    <circle cx="8" cy="69" r="0.9" fill="#ff00e4" opacity="0.49"/>
+    <circle cx="109" cy="39" r="1.2" fill="#ff00e4" opacity="0.45"/>
+    <circle cx="451" cy="163" r="0.6" fill="#00e5ff" opacity="0.48"/>
+    <g clip-path="url(#floor)">
+      <g class="grid">
+        <line x1="0" y1="208" x2="1200" y2="208" stroke="#ff00e4" stroke-opacity="0.45" stroke-width="1.2"/>
+        <line x1="0" y1="232" x2="1200" y2="232" stroke="#ff00e4" stroke-opacity="0.45" stroke-width="1.2"/>
+        <line x1="0" y1="256" x2="1200" y2="256" stroke="#ff00e4" stroke-opacity="0.45" stroke-width="1.2"/>
+        <line x1="0" y1="280" x2="1200" y2="280" stroke="#ff00e4" stroke-opacity="0.45" stroke-width="1.2"/>
+        <line x1="0" y1="304" x2="1200" y2="304" stroke="#ff00e4" stroke-opacity="0.45" stroke-width="1.2"/>
+        <line x1="0" y1="328" x2="1200" y2="328" stroke="#ff00e4" stroke-opacity="0.45" stroke-width="1.2"/>
+        <line x1="0" y1="352" x2="1200" y2="352" stroke="#ff00e4" stroke-opacity="0.45" stroke-width="1.2"/>
+      </g>
+      <line x1="432" y1="232" x2="-730" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="444" y1="232" x2="-635" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="456" y1="232" x2="-540" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="468" y1="232" x2="-445" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="480" y1="232" x2="-350" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="492" y1="232" x2="-255" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="504" y1="232" x2="-160" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="516" y1="232" x2="-65" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="528" y1="232" x2="30" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="540" y1="232" x2="125" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="552" y1="232" x2="220" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="564" y1="232" x2="315" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="576" y1="232" x2="410" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="588" y1="232" x2="505" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="600" y1="232" x2="600" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="612" y1="232" x2="695" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="624" y1="232" x2="790" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="636" y1="232" x2="885" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="648" y1="232" x2="980" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="660" y1="232" x2="1075" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="672" y1="232" x2="1170" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="684" y1="232" x2="1265" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="696" y1="232" x2="1360" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="708" y1="232" x2="1455" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="720" y1="232" x2="1550" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="732" y1="232" x2="1645" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="744" y1="232" x2="1740" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="756" y1="232" x2="1835" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <line x1="768" y1="232" x2="1930" y2="320" stroke="#00e5ff" stroke-opacity="0.4" stroke-width="1.1"/>
+      <rect x="0" y="232" width="1200" height="40" fill="url(#fade)"/>
+      <line x1="0" y1="232" x2="1200" y2="232" stroke="#00e5ff" stroke-width="1.5" filter="url(#soft)"/>
+    </g>
+    <text x="20" y="30" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff" letter-spacing="1">Joey Thompson</text>
+    <text x="1180" y="30" text-anchor="end" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="11.5" fill="#b0bec5" letter-spacing="1">Home  Skills  Certifications  Experience  Education  Projects  Contact  Links</text>
+    <line x1="0" y1="46" x2="1200" y2="46" stroke="#ffffff" stroke-opacity="0.08"/>
+    <g class="flicker"><text x="600.0" y="138" text-anchor="middle" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="68" font-weight="700" fill="#e8fdff" filter="url(#neon)">Joey Thompson</text></g>
+    <text x="600.0" y="178" text-anchor="middle" font-family="Orbitron, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" letter-spacing="2" fill="#b0bec5">Senior Software Engineer | Tech Enthusiast | Fraud Technology</text>
+    <g clip-path="url(#typeclip)"><text x="432" y="213" font-family="'Roboto Mono', Consolas, Menlo, monospace" font-size="15" fill="#00e5ff">&gt; ./download_resume --format pdf|docx</text></g>
+    <g class="cm"><rect class="caret" x="434" y="199" width="9" height="18" fill="#ff00e4"/></g>
+    <rect class="scan" width="1200" height="320" fill="url(#scang)"/>
+    <rect x="1" y="1" width="1198" height="318" rx="13" fill="none" stroke="#00e5ff" stroke-opacity="0.45"/>
+  </g>
+</svg>
